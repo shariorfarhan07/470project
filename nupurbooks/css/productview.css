@@ -1,0 +1,17 @@
+.bookview{
+    background: url('../productv.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 100vh;
+    width: 100%;
+    color: red;  
+    z-index: 1;
+    background-color: black;
+}
+
+.test1{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
