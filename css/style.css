@@ -1,0 +1,304 @@
+.pdf {
+    background-image: url('img/jkrow.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+
+.bg-color {
+    background-color: #FAAB9F;
+}
+
+
+.ad {
+
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/nupur_books_home_page.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 16%;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+
+
+
+.firstadd {
+    display: block;
+    position: absolute;
+    max-height: 500px;
+    max-width: 666px;
+    top: 350PX;
+    left: 50PX;
+    font-size: 2em;
+}
+
+.firstadd>h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1em;
+    padding-bottom: 35px;
+
+}
+
+
+.firstl::first-letter {
+    font-size: 2em;
+    color: #FAAB9F;
+    border: 2px solid#FAAB9F;
+    padding: 0 5px;
+    z-index: -1;
+    display: block;
+}
+
+.firstadd>p {
+    font-size: .8em;
+    color: #222;
+    opacity: 0.7;
+    padding: 12px 0;
+
+
+}
+
+.firstadd>a {
+    text-decoration: none;
+    text-align: center;
+    color: #FAAB9F;
+    border: 2px solid #FAAB9F;
+    padding: .2em;
+    margin: 2px;
+}
+
+.card>div>img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.card>.img {
+    max-height: 400px;
+    overflow: hidden;
+    background-color: #F7F5F6;
+    padding: 10px;
+}
+
+.card {
+    max-width: 300px;
+    max-height: 600px;
+    padding: 5px;
+    background-color: #F7F5F6;
+    margin-bottom: 10px;
+
+}
+
+.price {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.container-fluid {
+    margin: 100px 100px;
+}
+
+.title>h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+
+.title {
+    padding: 100px 100px 0px 100px;
+    align-items: center;
+}
+
+.line {
+    width: 100%;
+    max-height: 50px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.line>img {
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.title::after {
+    content: '';
+    display: inline-block;
+    background-image: url('img/line.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+
+}
+
+
+
+
+
+
+
+.curt>a:link {
+    text-decoration: none;
+}
+
+.cart>a {
+
+    display: fixed;
+    position: relative;
+    top: -60px;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    height: 1.2em;
+    width: 7.em;
+    padding: 5px 5px;
+    text-decoration: none;
+    background-color: #282828;
+    opacity: 0.7;
+    left: -10px;
+}
+
+.curt>a:hover {
+    left: -60%;
+    text-decoration: none;
+    color: #FAAB9F;
+
+}
+
+
+
+.seemore>a>h2 {
+    font-size: 1em;
+    text-align: center;
+    color: #FAAB9F;
+}
+
+.seemore a {
+    padding: 1em;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+.seemore>a:hover {
+    color: #FAAB9F;
+    text-decoration: none;
+}
+
+
+
+
+/*
+.seemore::after{
+    content: '';
+    display: inline-block;
+    background-image:  url('img/line.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    overflow: hidden;
+
+    width: 99%;
+    height: 50px;
+   
+}
+*/
+
+
+.quote>h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+    font-size: 2.2em;
+    padding: 10%;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: #FAAB9F;
+
+}
+
+.pdf {
+    background-color: #ffff;
+    opacity: .9;
+}
+
+.pdfto {
+    background-image: url('img/pdftobooks.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    padding: 10%;
+}
+
+.pdfto>div>h2 {
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+.pdfto>div>a {
+    position: relative;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2em;
+    left: 40%;
+    color: #222;
+    padding: 5px;
+    border: 2px solid #FAAB9F;
+}
+
+.pdfto>div>a:hover {
+    color: #FAAB9F;
+    text-decoration: none;
+}
+
+.pdfto>div {
+    background-color: #F7F5F6;
+    border-radius: 10px;
+    padding: 2em;
+
+}
+
+.icon {
+    font-size: 4em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact p {
+    text-align: center;
+
+}
+
+.contact {
+    padding: 10px;
+    background-color: #F7F5F6;
+}

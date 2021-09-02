@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@600&family=Mulish:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+
+
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="css/productview.css">
+   
+
+
+
+
+  </head>
+  <body>
+    <!--- nav start --->
+    <header>
+      <div class="header">
+        <nav class="headercontainer">
+          <div class="left nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div>
+          <div class="logo">
+            <h1 class="firstl"><span>N</span>UPUR BooK CENTER</h1>
+          </div>
+          <div class="right nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!---nav end --->
+
+
+<style>
+   
+    .form-group{
+        padding: 0 15px;
+    }
+    .btn,.custom-file{
+        margin-left: 14px;
+        margin-bottom: 10px;
+    }
+    h2{
+        margin:15px 10px 30px 10px;
+    }
+
+    .containerdesign{
+        position: relative;
+        top: -400px;
+        background: rgba( 255, 255, 255, 0.90 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .form{
+       background-color:  black;
+    }
+
+    /* added css */
+   .tubelight{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#000;
+  height:100vh;
+}
+.tubelight span{
+    position: relative;
+    top:-80px;
+  color:#fff;
+  text-transform:uppercase;
+/*   font-family: 'Pacifico', cursive; */
+  font-family: 'Monda', sans-serif;
+  font-size:5em;
+  animation:animate 2s linear;
+  animation-iteration-count:2;
+/*   display:table-cell; */
+  padding:0px  4px;
+  text-shadow:0px 0px 20px  #fff,
+      0px 0px 30px  #fff,
+      0px 0px 10px  #fff,
+      0px 0px 1px  #fff
+      ;
+}
+.tubelight span:nth-child(1){
+  animation-delay:0s;
+}
+.tubelight span:nth-child(2){
+  animation-delay:0.25s;
+}
+.tubelight span:nth-child(3){
+  animation-delay:0.5s;
+}
+.tubelight span:nth-child(4){
+  animation-delay:0.75s;
+}
+.tubelight span:nth-child(5){
+  animation-delay:0.3s;
+}
+.tubelight span:nth-child(6){
+  animation-delay:0.5s;
+}
+.tubelight span:nth-child(7){
+  animation-delay:0.6s;
+}
+.tubelight span:nth-child(8){
+  animation-delay:0.8s;
+}
+.tubelight span:nth-child(9){
+  animation-delay:1s;
+}
+
+
+
+@keyframes animate{
+  0%,15%,25%,30%,65%,95%{
+    color:#111;
+    text-shadow:none;
+  }
+  10%,20%,31%,60%,100%{
+    color:#fff;
+    text-shadow:0px 0px 20px  #fff,
+      0px 0px 30px  #fff,
+      0px 0px 10px  #fff,
+      0px 0px 1px  #fff
+      ;
+  }
+}
+
+
+
+
+
+</style>    
+<div class="tubelight">
+    <span>N</span>
+    <span>U</span>
+    <span>P</span>
+    <span>U</span>
+    <span>R</span>
+    <span>B</span>
+    <span>O</span>
+    <span>O</span>
+    <span>K</span>
+    <span>S</span>
+  </div>
+
+
+
+<section style="" class="form"> 
+   <div class="container containerdesign">
+
+   
+<h2>Please upload the book you want to print we will contact you for details</h2>
+
+    <form>
+        <div class="form-row">
+            <div class="col-md-6">
+                <label for="inputAddress">First Name</label>
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col-md-6">
+                <label for="inputAddress">Last Name</label>
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Phone</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="validatedCustomFile" required>       
+          </div>
+     
+        <button type="submit" class="btn btn-primary">Upload for queary</button>
+
+
+      </form>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+               <h2> CONTACT US</h2>
+                NUPUR BOOK CENTER, 6 NO GOLI, ISLAMIA MARKET, NILKHET, DHAKA-1205
+                01816876637,
+                01748280196,
+                01912171150
+                nupurbookcenter@gmail.com
+              </div>
+      
+              <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.4023498678603!2d90.38327451530934!3d23.73302748459796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c5dffa1727%3A0x538be2859437441b!2sNupur%20Book%20Center!5e0!3m2!1sen!2sbd!4v1621972109634!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+      
+              <div class="col-md-4">
+              <h2>FACEBOOK</h2>
+              <i class="fab fa-facebook-square fb"></i>
+              </div>    
+            </div>
+          </div>
+        </div> 
+      </footer>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"
+        ></script>
+        <script src="js/index.js"></script>
+      </html>
+      
